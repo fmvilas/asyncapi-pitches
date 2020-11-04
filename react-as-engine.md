@@ -1,4 +1,4 @@
-# React as a Generator engine
+## Summary
 
 Make Generator support React as a template engine, along with Nunjucks.
 
@@ -63,7 +63,7 @@ In the example above, this file will only be rendered if the type of the schema 
 ## Rabbit holes & challenges
 
 1. Compiling React JSX and ES7 `import` syntax may be challenging. Watch out. We may have to introduce a step to precompile ES7 and JSX syntax before the renderer `require`s the files.
-1. We may have to create our own React renderer with its own DOM model and reconciler. Here's a great source of inspiration: https://github.com/chentsulin/awesome-react-renderer.
+1. We may have to create our own React renderer with its own DOM model and reconciler. Here's a great source of inspiration: https://github.com/chentsulin/awesome-react-renderer. This tool can also be helpful: https://www.npmjs.com/package/esinstall.
 
 ## Out of bounds
 

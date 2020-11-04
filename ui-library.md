@@ -1,4 +1,4 @@
-# AsyncAPI UI Component Library
+## Summary
 
 Create a UI library of easily customizable components, including the current React component, redesigned.
 
@@ -32,11 +32,13 @@ A component showing the list of available servers/brokers and how to connect to 
 
 A single server/broker. It must include the URL, protocol and protocol version, description, and information about the authentication mechanisms needed —if any— and the server variables —if any.
 
+![](ui-library/server.jpg)
+
 #### Operation
 
 The purpose of this component is to illustrate wether it's a publish or subscribe operation, its details (summary, description, operationId, etc.), and the related message.
 
-#### Operations mixed with channels
+#### List of operations mixed with channels
 
 In many cases, people are more interested in operations as a first-class object than the channels themselves. It would be great to show operation and channel information at a glance, ala HTML template.
 
