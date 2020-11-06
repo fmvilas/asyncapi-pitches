@@ -1,3 +1,16 @@
+<h2>On This Page</h2>
+
+<!-- TOC depthFrom:2 depthTo:6 updateOnSave:true -->
+
+- [Summary](#summary)
+- [Problem](#problem)
+- [Solution](#solution)
+- [Solution elements](#solution-elements)
+- [Rabbit holes & challenges](#rabbit-holes--challenges)
+- [Out of bounds](#out-of-bounds)
+
+<!-- /TOC -->
+
 ## Summary
 
 Make Generator support React as a template engine, along with Nunjucks.
