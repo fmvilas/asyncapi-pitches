@@ -4,6 +4,7 @@
 
 - [Summary](#summary)
   - [Problem Overview](#problem-overview)
+    - [Related issues](#related-issues)
   - [Solution Overview](#solution-overview)
   - [Positive Side-Effects](#positive-side-effects)
 - [Problem Details](#problem-details)
@@ -28,6 +29,10 @@
 Describe the overall problem you’re solving. This should be an overview, so keep it brief...
  
 1. Use numbered bullets to outline the problem. They will make it easier to reference this point in a conversation.
+
+#### Related issues
+
+* Link to issue here...
 
 ### Solution Overview
 
