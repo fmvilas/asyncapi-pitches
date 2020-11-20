@@ -37,17 +37,26 @@ Currently, there are a bunch of things that are tedious and we're either doing t
 
 ## Problem Details
 
-### Match these headings to the bullets in your overview
+### Deploy Playground (playground.asyncapi.io)
 
-This details section is where the meat is. Show the problem as clearly and thoroughly as you can.
- 
-* Include screenshots, metrics, user feedback, etc.
-* Help the team understand the severity of the problem and who is affected.
+Currently, it's on my side to deploy the Playground. It's a simple but manual task I have to do, and therefore I can easily become a bottleneck.
 
 
 ## Solution guidelines
 
-### Define the domain and show a reasonable solution
+### Automate Playground deployment
+
+Deploying the Playground is as easy as doing `git push dokku master`. However, to make it work, you have to add an SSH key and set up the git remote:
+
+```
+git remote add dokku dokku@playground.asyncapi.io:playground
+```
+
+My suggestion is that we create a Github Action that will do this for us. It's a three-step process:
+
+1. Set up SSH key. This action might be helpful: https://github.com/marketplace/actions/install-ssh-key.
+1. Add git remote.
+1. Run `git push dokku master`. This action might be helpful: https://github.com/ad-m/github-push-action.
 
 **A well-shaped solution defines the domain** (e.g., the screens or sections of the product you want the project team to work on). This is important for a few reasons:
 
